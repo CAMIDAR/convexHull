@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #miCanvas{
+            border: 2px solid rgba(0, 0, 0, 0.416);
+            width: 1400px; 
+            height: 600px;
+        }
+        </style>
+    <canvas id="miCanvas" onclick="seleccionarPosicion(event)" ></canvas>
+    <p id="screen-log"></p>
+    <p>Debe haber por lo menos tres puntos para hacer la envoltura</p>
+    <button id="btnEnvolver">Envuelve</button>
+    <button onclick="borrarLienzo()">Borrar</button>
+    <script src="envolutura.js"></script> 
+   
+</body>
+</html>
